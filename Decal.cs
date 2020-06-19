@@ -9,10 +9,14 @@ namespace SDG.Unturned
     
     // Allows you to apply decals to modded objects without the need of two seperate objects or the need of the editor. 
     // This is useful when your object is not part of the landscape and is something like a placeable object or a vehicle.
+    // Requires: 
+    // * One of the MeshRenderers specified in the fallback system must be set
+    // * A BoxCollider must be on the parent Game Object
+    // * The Game Object with this script must be named "Decal"
     // The fallback system is as follows:
-    // If the Render Type in the graphics settings is set to forward a MeshRenderer is rendered as the decal. 
-    // The MeshRenderer can either be a component on the parent Game Object or a component of another child or the parent named "Mesh".
-    // If the Render Type is Deferred then the material is used and will be projected over any meshes within the BoxCollider on the parent Game Object.
+    // If the Render Type in the graphics settings is set to Forward a MeshRenderer is rendered as the decal. 
+    // The MeshRenderer can either be a component on the parent Game Object or a component of a Game Object named "Mesh" which shares the same parent as the object with this script.
+    // If the Render Type is Deferred then the material specified below is used. The material will be projected over any meshes within the BoxCollider on the parent Game Object.
     public class Decal : MonoBehaviour
     {
         // There is only one of these...
