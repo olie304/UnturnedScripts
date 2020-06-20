@@ -12,7 +12,8 @@ namespace SDG.Unturned
         public void setAddressAndRefresh(string newURL, bool newShouldCache, bool forceRefresh)
         {
         }
-
+        
+        // Refresh Image
         public void Refresh()
         {
         }
