@@ -13,7 +13,7 @@ namespace SDG.Unturned
         {
         }
         
-        // Refresh Image
+        // Refresh image
         public void Refresh()
         {
         }
@@ -25,10 +25,9 @@ namespace SDG.Unturned
 
         public bool shouldCache = true;
 
+        // Not really useful for anything
         public Button targetButton;
-
         public LayoutElement targetLayout;
-
         public bool isExpanded;
 
         // Ignore these. If you can access them you can use them in a material though I doubt it.
