@@ -12,6 +12,7 @@ namespace SDG.Unturned
     {
         public CSteamID killer;
 
+        // Explosion Damage Radius
         public float range;
 
         public float playerDamage;
