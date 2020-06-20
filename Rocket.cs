@@ -1,5 +1,5 @@
 using UnityEngine;
-using Steamworks;
+using Steamworks; // Requires CSteamID.cs
 
 namespace SDG.Unturned
 {
@@ -50,12 +50,3 @@ namespace SDG.Unturned
         ZERO_KELVIN
     }
 }
-
-namespace Steamworks
-{
-    public struct CSteamID
-    {
-        public ulong m_SteamID;
-    }
-}
-
