@@ -24,7 +24,7 @@ Open up the Data Inspector by clicking 'View Data'.
 Expand the tree Material Base>m_Shader>[view asset]>Shader Base>m_ParsedForm and look at the m_Name property. If your Decal uses an alpha channel then make sure this says Decal/Diffuse-Alpha.
 ![1](images/1.png)
 
-Otherwise if you are not using an alpha channel look for the other object named Material_Decal right next to the one.
+Otherwise if you are not using an alpha channel look for the other object named Material_Decal right next to the other one.
 ![2](images/2.png)
 
 Once you have found the correct Material_Decal, copy down the Shader's m_PathID because you will need it again in a moment.
