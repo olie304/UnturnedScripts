@@ -13,6 +13,7 @@ namespace SDG.Unturned
     // * One of the MeshRenderers specified in the fallback system must be set
     // * A BoxCollider must be on the parent Game Object
     // * The Game Object with this script must be named "Decal"
+    // * You must follow the second part of these instructions to get this to work
     // The fallback system is as follows:
     // If the Render Type in the graphics settings is set to Forward a MeshRenderer is rendered as the decal. 
     // The MeshRenderer can either be a component on the parent Game Object or a component of a Game Object named "Mesh" which shares the same parent as the object with this script.

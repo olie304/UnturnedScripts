@@ -2,6 +2,7 @@
 
 namespace SDG.Unturned
 {
+    // * WARNING * Might be obsolete now that there is a Unity Event Hook for this in the base game
     // Toggles a binary state object when a phrase is typed in chat within a certain radius of the object.
     // In order for it to work you must create a LevelObject that is on the same position as the parent of this script
     // and it must be a binary state object and it must have the same ID as specified in the ID slot below. I have not
@@ -18,8 +19,5 @@ namespace SDG.Unturned
 
         [Tooltip("Range of trigger")]
         public float sqrRadius;
-        
-        // Ignore this, this is just to clarify the object type of the target as specified in the instructions above
-        private InteractableObjectBinaryState target;
     }
 }
