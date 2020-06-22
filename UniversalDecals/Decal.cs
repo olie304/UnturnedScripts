@@ -6,13 +6,14 @@ namespace SDG.Unturned
     {
         DIFFUSE
     }
-    
+    // * IMPORTANT * Read the README.md, This only has the first half of setup instructions
     // Allows you to apply decals to modded objects without the need of two seperate objects or the need of the editor. 
     // This is useful when your object is not part of the landscape and is something like a placeable object or a vehicle.
     // Requires: 
     // * One of the MeshRenderers specified in the fallback system must be set
     // * A BoxCollider must be on the parent Game Object
     // * The Game Object with this script must be named "Decal"
+    // * Your Material names should be "Decal_Deferred" and "Decal_Forward" respectively and your Texture name should be "Decal"
     // * You must follow the second part of these instructions to get this to work
     // The fallback system is as follows:
     // If the Render Type in the graphics settings is set to Forward a MeshRenderer is rendered as the decal. 
