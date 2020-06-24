@@ -7,18 +7,18 @@ namespace SDG.Unturned
     // Untested but can likely only teleport one player at a time
     // When a player is teleported the specified effect is played at a radius of 16 at the position of the eventHook transform
     // Upon teleporting players are given the same Y axis rotation as the target transform
-	public class VolumeTeleporter : MonoBehaviour
-	{
+    public class VolumeTeleporter : MonoBehaviour
+    {
         // Achievement to give player, can be a null or empty string if you don't want to cheat :P
-		public string achievement;
+        public string achievement;
 
-		// Teleporter Endpoint
-		public Transform target;
+        // Teleporter Endpoint
+        public Transform target;
 
-		// Effect ID to play when player is teleported
-		public ushort teleportEffect;
+        // Effect ID to play when player is teleported
+        public ushort teleportEffect;
 
-		// Location to play teleporter effect
-		public Transform effectHook;
-	}
+        // Location to play teleporter effect
+        public Transform effectHook;
+    }
 }
