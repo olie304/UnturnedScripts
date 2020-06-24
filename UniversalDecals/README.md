@@ -1,3 +1,5 @@
+QUICK NOTE: The README Text wrapping drives me insane! If you want an easier to read guide but with no photos click here https://gist.github.com/olie304/4c1dca2c1b9d6ae6a1956391601142e2
+
 This allows you to apply decals to modded objects without the need of two seperate objects or the need of the editor.
 You can even have more than one decal on a single object.
 This is useful when your object is not part of the landscape and is something like a placeable object or a vehicle.
@@ -22,7 +24,7 @@ Open up the Data Inspector by clicking 'View Data'.
 Expand the tree Material Base>m_Shader>[view asset]>Shader Base>m_ParsedForm and look at the m_Name property. If your Decal uses an alpha channel then make sure this says Decal/Diffuse-Alpha.
 ![1](images/1.png)
 
-Otherwise if you are not using an alpha channel look for the other object named Material_Decal right next to the one.
+Otherwise if you are not using an alpha channel look for the other object named Material_Decal right next to the other one.
 ![2](images/2.png)
 
 Once you have found the correct Material_Decal, copy down the Shader's m_PathID because you will need it again in a moment.
