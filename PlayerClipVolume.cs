@@ -1,8 +1,3 @@
-using System;
-using SDG.Framework.Debug;
-using SDG.Framework.Devkit.Visibility;
-using SDG.Framework.IO.FormattedFiles;
-using SDG.Unturned;
 using UnityEngine;
 
 namespace SDG.Framework.Devkit
