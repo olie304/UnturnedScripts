@@ -31,5 +31,9 @@ namespace SDG.Unturned
         public ushort explosion;
 
         public float fuseLength = 2.5f;
+
+    	public float explosionLaunchSpeed;
+
+    	public bool shouldDestroySelf = true;
     }
 }
