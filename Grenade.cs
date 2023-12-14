@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using Steamworks; // Requires CSteamID.cs
 
@@ -27,7 +28,10 @@ namespace SDG.Unturned
 
         public float objectDamage;
 
-        // Effect ID to play once exploded
+        // Effect GUID to play once exploded
+        public Guid explosionEffectGuid;
+
+        // [[Obsolete] Effect ID to play once exploded
         public ushort explosion;
 
         public float fuseLength = 2.5f;
