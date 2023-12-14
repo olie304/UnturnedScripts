@@ -1,5 +1,3 @@
-using System;
-using SDG.Unturned;
 using UnityEngine;
 
 namespace SDG.Unturned
